@@ -1,23 +1,26 @@
 # Shop-IT
 
-This project is an e-commerce API project built with Nodejs, Express and MongoDB. It provides endpoints for functionalities like user authentication and shopping activities like products, categories, carts, orders and so on. 
+This project is an e-commerce API project built with Nodejs, Express and MongoDB. It provides endpoints for functionalities like user and admin authentication, products, categories, and carts.
+
 
 ## Outline
 - Features
 - Technologies Used
 - Installation
-- API Endpoints
+- API Documentation
 - Usage
 - Contribution
 - Get in Touch
 - License
 
-  ** to be updated **
 
 ## Features
 
-- **User Authentication**: Enables secure user sign-up, log-in and functionalities for shopping activities.
- ** to be updated **
+- **User/Admin Authentication**: Enables secure user sign-up, log-in and performance of Create, Read, Update,Delete (CRUD) functions.
+- **Categories**: Allows for adding and listing product categories
+- **Product**:Enables adding and listing of products
+- **Cart**: Allows for adding products to cart, displaying orders and listing or showing all user order
+
 
 ## Technologies Used
 
@@ -50,9 +53,10 @@ This project is an e-commerce API project built with Nodejs, Express and MongoDB
 
 6. Access the API using [POSTMAN](https://www.postman.com/) at base url `http://localhost:3000`.
 
-## API Endpoints
+## API Documentation
 
-** to be updated **
+
+
 
 ## Usage
 
