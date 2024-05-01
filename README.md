@@ -29,6 +29,7 @@ This project is an e-commerce API project built with Nodejs, Express and MongoDB
 [MongoDB](https://www.mongodb.com/) - NoSQL database\
 [POSTMAN](https://www.postman.com/) - API testing
 
+
 ## Installation
 
 1. Clone the repository:
@@ -49,22 +50,30 @@ This project is an e-commerce API project built with Nodejs, Express and MongoDB
 3. Set up environment variables:
 
    Create a `.env` file in the project root directory and add the following variables:
+   PORT=5000\
+   MONGODB_URL=your_mongodb_secret_key_string
    
 
-6. Access the API using [POSTMAN](https://www.postman.com/) at base url `http://localhost:3000`.
+6. Access the API using [POSTMAN](https://www.postman.com/) at base url `http://localhost:8000`.
+
 
 ## API Documentation
 
-
+Visit http://localhost:8000/docs/ to access the API documentation for this project.
 
 
 ## Usage
 
-** to be updated **
+- Authentication: Engage the provided endpoints to access user and admin registrations, login authentication functions. 
+- Products CRUD: Use the available endpoints to perform Create, Retrieve, Update, and Delete on products.
+- Product Categories: Access endpoints to manage categories listings and perform CRUD functions.
+- Shopping Cart: The endpoints here allows for adding and removing items from cart.
+
 
 ## Contribution
 
 Contributions are welcome! If you have any ideas, suggestions, or bug fixes, feel free to open an issue or submit a pull request.
+
 
 ## Get in Touch
 
