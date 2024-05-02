@@ -6,7 +6,7 @@ require("./database/db"); //import the database
 if (process.env.NODE_ENV !== "production") {
   require("dotenv").config();
 }
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8001;
 
 server.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);

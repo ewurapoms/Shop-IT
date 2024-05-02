@@ -50,16 +50,16 @@ This project is an e-commerce API project built with Nodejs, Express and MongoDB
 3. Set up environment variables:
 
    Create a `.env` file in the project root directory and add the following variables:
-   PORT=5000\
+   PORT=8001\
    MONGODB_URL=your_mongodb_secret_key_string
-   
+   JWT_KEY="your_secret_key"
 
-6. Access the API using [POSTMAN](https://www.postman.com/) at base url `http://localhost:8000`.
+6. Access the API using [POSTMAN](https://www.postman.com/) at base url `http://localhost:8001`.
 
 
 ## API Documentation
 
-Visit http://localhost:8000/docs/ to access the API documentation for this project.
+Visit http://localhost:8001/docs/ to access the API documentation for this project.
 
 
 ## Usage
