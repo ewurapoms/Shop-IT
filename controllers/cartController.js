@@ -34,12 +34,24 @@ exports.getOrder = async (req, res, next) => {
 };
 
 exports.getAllOrders = async (req, res, next) => {
+  try {
+    // Fetch all orders from the Cart model
+    const orders = await Cart.find({});
 
-    res.status(200).json({
-    status: "success",
-    results,
-  });
+    // Map each order to the desired format using the returnOrder function
+    const formattedOrders = orders.map(order => returnOrder(order));
+
+    // Return the formatted orders in the response
+    return res.status(200).json({
+      status: "success",
+      results: formattedOrders,
+    });
+  } catch (error) {
+    // Handle any errors that occur during fetching of orders
+    return res.status(400).json({ message: "Error fetching orders", error });
+  }
 };
+
 
 function returnOrder(cart) {
   return {
